@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
   return (
     <>
       <div className="">
         <div className="bgClr text-white px-6 sm:px-16">
-          {" "}
           <div className="navbar ">
             <div className="navbar-start">
               <div className="dropdown">
@@ -19,6 +25,7 @@ const Navbar = () => {
                   tabIndex={0}
                   role="button"
                   className="btn btn-ghost lg:hidden"
+                  onClick={toggleDropdown}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -35,23 +42,25 @@ const Navbar = () => {
                     />
                   </svg>
                 </div>
-                <ul
-                  tabIndex={0}
-                  className="menu menu-sm dropdown-content bg-zinc-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-                >
-                  <li>
-                    <a onClick={() => scrollToSection("home")}>Home</a>
-                  </li>
-                  <li>
-                    <a onClick={() => scrollToSection("about")}>About</a>
-                  </li>
-                  <li>
-                    <a onClick={() => scrollToSection("projects")}>Project</a>
-                  </li>
-                  <li>
-                    <a onClick={() => scrollToSection("contact")}>Contact</a>
-                  </li>
-                </ul>
+                {isDropdownOpen && (
+                  <ul
+                    tabIndex={0}
+                    className="menu menu-sm dropdown-content bg-zinc-600 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                  >
+                    <li>
+                      <a onClick={() => scrollToSection("home")}>Home</a>
+                    </li>
+                    <li>
+                      <a onClick={() => scrollToSection("about")}>About</a>
+                    </li>
+                    <li>
+                      <a onClick={() => scrollToSection("projects")}>Project</a>
+                    </li>
+                    <li>
+                      <a onClick={() => scrollToSection("contact")}>Contact</a>
+                    </li>
+                  </ul>
+                )}
               </div>
               <div className="btn btn-ghost text-xl">
                 <img
