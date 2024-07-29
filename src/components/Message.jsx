@@ -26,7 +26,7 @@ const Message = () => {
               </p>
             </div>
             <div className=" md:w-2/5  ">
-              <img src="../../public/images/11.png" alt="" />
+              <img src="/images/11.png" alt="" />
             </div>
           </div>
         </div>

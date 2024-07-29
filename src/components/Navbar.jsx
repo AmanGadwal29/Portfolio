@@ -56,7 +56,7 @@ const Navbar = () => {
               <div className="btn btn-ghost text-xl">
                 <img
                   className="w-full h-full object-cover"
-                  src="../../public/images/logo.png"
+                  src="/images/logo.png"
                   alt=""
                 />
               </div>

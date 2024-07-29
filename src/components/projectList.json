@@ -1,18 +1,18 @@
 [
   {
-    "img": "../../public/projectImage/eigakan.jpg",
+    "img": "/projectImage/eigakan.jpg",
     "title": "Eigakan",
     "discription": "Netflix-style movie streaming clone using React and Bootstrap for a responsive and user-friendly interface. Integrated Firebase for real-time database management and secure user authentication. Implemented API calls to display dynamic movie data, enhancing the app's functionality and user experience.",
     "link": "https://eigakan.netlify.app/"
   },
   {
-    "img": "../../public/projectImage/photography.jpg",
+    "img": "/projectImage/photography.jpg",
     "title": "Website",
     "discription": "Created a responsive website with HTML, CSS, and JavaScript, highlighting the studio's brand identity and ensuring a seamless user experience across all devices.",
     "link": "https://avtarflimsandphotography.netlify.app/"
   },
   {
-    "img": "../../public/projectImage/dice.jpg",
+    "img": "/projectImage/dice.jpg",
     "title": "Dice game",
     "discription": "Created 'Dice It Right,' a React-based dice game using HTML, CSS, and JavaScript. The game features intuitive gameplay with dynamic scoring, utilizing state management in React for handling game logic and tracking player decisions.",
     "link": ""

@@ -1,12 +1,12 @@
 [
-  { "img": "../../public/images/c++.png", "title": "C++" },
-  { "img": "../../public/images/hnc.png", "title": "HTML &Css" },
-  { "img": "../../public/images/JS.png", "title": "Javascript" },
-  { "img": "../../public/images/exp.png", "title": "Express.js" },
-  { "img": "../../public/images/mgdb.png", "title": "Mongodb" },
-  { "img": "../../public/images/react.png", "title": "React.js" },
-  { "img": "../../public/images/tailwind.png", "title": "Tailwind" },
-  { "img": "../../public/images/bt.png", "title": "Bootstrap" },
-  { "img": "../../public/images/ps.png", "title": "Photoshop" },
-  { "img": "../../public/images/pr.png", "title": "Premeire pro" }
+  { "img": "/images/c++.png", "title": "C++" },
+  { "img": "/images/hnc.png", "title": "HTML &Css" },
+  { "img": "/images/JS.png", "title": "Javascript" },
+  { "img": "/images/exp.png", "title": "Express.js" },
+  { "img": "/images/mgdb.png", "title": "Mongodb" },
+  { "img": "/images/react.png", "title": "React.js" },
+  { "img": "/images/tailwind.png", "title": "Tailwind" },
+  { "img": "/images/bt.png", "title": "Bootstrap" },
+  { "img": "/images/ps.png", "title": "Photoshop" },
+  { "img": "/images/pr.png", "title": "Premeire pro" }
 ]
