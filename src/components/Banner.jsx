@@ -36,11 +36,7 @@ const Banner = () => {
               </div>
             </div>
             <div className=" order-1 sm:order-2 relative">
-              <img
-                className="imgShadow"
-                src="../../public/images/1.png"
-                alt=""
-              />
+              <img className="imgShadow" src="/images/1.png" alt="" />
               <div className="text-white absolute right-5 sm:right-10 lg:right-16 flex flex-col items-center gap-6 text-2xl sm:text-3xl sm:top-0 lg:top-20 top-2  ">
                 <span className="w-0 h-16 sm:h-28 lg:h-56 border-2 border-amber-300"></span>
                 <a
