@@ -27,7 +27,7 @@ const Banner = () => {
                 </p>
                 <a
                   className=" inline-block my-6 sm:mt-12  rounded-md text-orange-300 text-2xl border-4 px-4 py-3 border-orange-300 "
-                  href="../../public/Aman.pdf"
+                  href="/Aman.pdf"
                   download
                 >
                   {" "}
