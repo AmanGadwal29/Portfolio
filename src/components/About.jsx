@@ -36,15 +36,15 @@ const About = () => {
             <h1 className="text-6xl font-bold text-orange-300">My skills</h1>
             <div>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
-                {cardList.slice(0, 8).map((data) => (
+                {cardList.map((data) => (
                   <Card data={data}></Card>
                 ))}
               </div>
-              <div className="flex justify-center gap-8 mt-8">
+              {/* <div className="flex justify-center gap-8 mt-8">
                 {cardList.slice(8).map((data) => (
                   <Card data={data}></Card>
                 ))}
-              </div>
+              </div> */}
             </div>
             <div id="projects">
               <h1 className="text-6xl font-bold mt-16 sm:mt-32 text-center ">

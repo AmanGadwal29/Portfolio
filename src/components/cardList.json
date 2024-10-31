@@ -8,5 +8,7 @@
   { "img": "/images/tailwind.png", "title": "Tailwind" },
   { "img": "/images/bt.png", "title": "Bootstrap" },
   { "img": "/images/ps.png", "title": "Photoshop" },
-  { "img": "/images/pr.png", "title": "Premeire pro" }
+  { "img": "/images/pr.png", "title": "Premeire pro" },
+  { "img": "/images/java.png", "title": "Core java" },
+  { "img": "/images/node.png", "title": "Node js" }
 ]
