@@ -10,19 +10,19 @@ const Message = () => {
             <div className="px-6 lg:px-32 pt-10 md:w-3/5">
               {" "}
               <h1 className=" mb-12 text-4xl sm:text-5xl">
-                Focused on Front End Excellence
+                Focused on Full-Stack Excellence
               </h1>
               <p className="sm:text-xl">
                 <span className="inline-block w-20 h-2 mr-4  border-t-4 border-orange-300"></span>
-                With the solid foundation in Front End Development uou can count
-                on my unwavering dedication to achieving excellence. With a
-                solid foundation in Front End development and a track record of
-                creating impactful user interfaces, I am committed to delivering
-                high-quality work tailored to your needs. My approach combines
-                attention to detail, a passion for innovation, and a strong work
-                ethic. I’m eager to bring my skills to your team, tackle
-                challenges head-on, and contribute to the success of your
-                projects.
+                With a solid foundation in MERN development, you can count on me
+                for reliable and practical solutions. I have experience building
+                both frontend and backend applications using MongoDB,
+                Express.js, React.js, and Node.js, along with a strong
+                understanding of creating user-friendly interfaces. I’m
+                committed to delivering quality work, paying attention to
+                detail, and continuously improving my skills. I look forward to
+                contributing effectively to your projects and collaborating with
+                the team.
               </p>
             </div>
             <div className=" md:w-2/5  ">

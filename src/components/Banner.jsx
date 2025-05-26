@@ -12,7 +12,7 @@ const Banner = () => {
             <div className=" order-2 sm:order-1 mt-8 sm:ml-16 lg:mt-32 flex flex-col items-center">
               <div className="">
                 <h1 className="  text-xl sm:text-2xl text-white">
-                  UI/UX Designer
+                  MERN Stack Developer
                 </h1>
                 <p className=" text-3xl sm:text-4xl lg:text-6xl text-white ">
                   I'm{" "}
