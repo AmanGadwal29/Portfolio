@@ -20,7 +20,7 @@ const Contact = () => {
             </div>
             <div className="px-3 text-xl flex gap-4 items-center contactBox text-white">
               <IoCall />
-              <p className="text-orange-300">91-9015106615</p>
+              <p className="text-orange-300">+91-9015106615</p>
             </div>
           </div>
           <div className=" flex text-white justify-center text-3xl gap-10">
