@@ -90,20 +90,27 @@ const Experience = () => {
               <p className=" text-2xl sm:text-3xl text-orange-300">
                 DevSpark (1 June 2023 - 31 July 2023)
               </p>
-              <p className=" sm:text-2xl">
-                Played a key role in frontend development projects, leveraging
-                technologies like HTML, CSS, JavaScript, and Bootstrap to create
-                visually appealing and functional user interfaces. Focused on
-                enhancing the user experience by designing responsive and
-                interactive layouts that work seamlessly across different
-                platforms and devices. This involved collaborating closely with
-                design teams to translate visual concepts into code, ensuring
-                consistency with branding guidelines, and optimizing the user
-                interface for accessibility and performance. Contributed to the
-                development process by implementing best practices in code
-                structure and modularity, making the codebase easier to maintain
-                and scale.
-              </p>
+              <ul className=" list-disc pl-6 sm:text-2xl space-y-2">
+                <li>
+                  Built responsive UIs with HTML, CSS, JavaScript, and
+                  Bootstrap.
+                </li>
+                <li>
+                  Collaborated with design team to translate visual concepts
+                  into code.
+                </li>
+                <li>
+                  Ensured consistency with branding, accessibility, and
+                  performance.
+                </li>
+                <li>
+                  Designed interactive layouts for seamless cross-device
+                  experience.
+                </li>
+                <li>
+                  Applied best practices in modular code for easier maintenance.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
